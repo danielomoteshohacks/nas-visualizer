@@ -1,10 +1,29 @@
+# Python
 venv/
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
 .env
+.venv
+
+# NAS data files (too large for GitHub)
 data/*.pkl
 data/*.pth
+data/*.db
+
+# Generated exports
 exports/
+
+# JavaScript
 node_modules/
 dist/
+.next/
+
+# OS
 .DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
